@@ -1,0 +1,29 @@
+{
+  "editor.mouseWheelZoom": true,
+  "python.defaultInterpreterPath": "/Users/aaron/opt/miniconda3/bin/python",
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  
+  // go settings
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+
+  // vim settings
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  
+  "vim.insertModeKeyBindings": [
+  ],
+  "editor.lineNumbers": "relative",
+
+  // cpp settings
+  "C_Cpp.default.compilerPath": "/usr/bin/g++",
+  "C_Cpp.default.cppStandard": "c++20",
+}
